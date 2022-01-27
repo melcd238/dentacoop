@@ -1,0 +1,37 @@
+.equipe{
+    border: 1px solid white;
+    border-radius : 10px;
+    color: black;
+    font-size: 1.1rem;
+    padding: 1rem;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #92d0d4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 30px
+}
+.equipeTitre{
+    color:#0097c1;
+    font-size: 1.8rem;
+}
+.paraEquipe{
+    margin:16px 60px;
+    color:gray;
+    font-weight: bolder;
+    font-size: 1.4rem;
+}
+
+@media only screen and (max-width: 580px){
+    .equipeTitre{
+        font-size: 1.4rem;
+    }
+    .paraEquipe{
+        margin:16px 20px;
+        font-size: 1rem;
+    } 
+    .equipe{
+        margin: 10px 10px;
+    }
+}

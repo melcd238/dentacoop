@@ -1,0 +1,67 @@
+.informationsContainer{
+    display: flex;
+    flex-direction: column;
+}
+.infoContent{
+    border: 1px solid white;
+    border-radius : 10px;
+    color: black;
+    font-size: 1.1rem;
+    padding: 1rem;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+    background-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 30px 30px
+}
+.imgContent{
+    width: 340px;
+    height: 390px;
+    border: 1px solid white;
+    margin: 20px 20px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+    border-radius : 10px;
+    padding: 14px 20px;
+    background-color: #92d0d4;
+}
+.h2Info{
+    font-size: 1rem;
+    color: #03627c;
+}
+.explication{
+    color:rgb(63, 61, 61);
+}
+.titreHinfo{
+    color:#03627c;
+}
+.imgProcess{
+    margin: auto;
+}
+.imgProcessdiag{
+    max-width: 380px;
+    max-height: 900px;
+}
+@media only screen and (max-width: 580px){
+    .infoContent{
+        margin: 18px 18px;
+    
+    }
+    .imgContent{
+        margin: auto;
+        padding: 25px;
+        
+     }
+    .imgProcessdiag{
+        width: 260px;
+    }
+    
+}
+@media only screen and (min-width:581px) and (max-width: 1023px){
+    .imgContent{
+        margin:  10px auto;
+       
+    }
+}

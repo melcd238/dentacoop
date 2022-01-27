@@ -1,0 +1,78 @@
+.membre{
+    width: 340px;
+    min-height: 412px;
+    border: 1px solid white;
+    margin: 20px 20px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+    border-radius : 10px;
+    padding: 10px 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.nomMembre{
+    color:#0097c1;
+    font-weight: 800;
+}
+.membreContent{
+    flex: 1;
+    margin-top: -14px;
+}
+.btnMembre{
+    border: none;
+    cursor: pointer;
+    background-color:  #0097c1;
+    color: #ffffff;
+    font-size: 1.1rem;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px 0 rgba(0,0,0,0.11),
+    0 5px 15px 0 rgba(0,0,0,0.08);
+    text-shadow:  0px -1px  #0097c1;
+    transition: all 0.1s;
+    -webkit-transition: all 0.1s ;
+    
+}
+.btnMembre:active{
+    transform: translate( 0, 3px);
+  -webkit-transform:translate( 0, 3px) ;
+}
+.btnMembre:hover{
+    color:#ffffff;
+}
+.citation{
+    font-style: italic;
+    color:#585656;
+}
+.roleMembre{
+    color: gray;
+    font-weight: bolder;
+}
+.bio{
+    color:#0097c1;
+}
+.colorBio{
+    color: gray;
+}
+@media only screen and (max-width: 580px){
+    .membre{
+       
+        margin: 8px 8px;
+        padding: 4px 4px;
+        
+    }
+    .nomMembre{
+        font-weight: 600;
+    }
+    .membreContent{
+        margin-top: -24px;
+    }
+    .citation{
+        font-size: 1rem;
+    }
+}
+@media only screen and (min-width:581px) and (max-width: 1024px){
+    .membre{
+        margin: 10px auto;
+    }
+}

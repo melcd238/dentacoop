@@ -1,0 +1,18 @@
+.li{
+    margin-right: 16px;
+
+}
+.navLink{
+    text-decoration: none;
+    color:white;
+    font-weight: bolder;
+}
+.navLink:hover{
+    color:#0097c1;
+    cursor: pointer;
+}
+@media only screen and (max-width: 580px){
+    .li{
+        margin: 4px;
+    }
+}

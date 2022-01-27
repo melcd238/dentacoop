@@ -1,0 +1,41 @@
+.footer{
+    background-color: #92d0d4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+  
+}
+.containerFooter{
+    display: flex;
+    flex-direction: row;
+    
+}
+.social {
+    opacity:1;
+    margin: 20px;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: inline-block;
+    color: #FFF;
+    font-size: 10px;
+    text-align: center;
+  }
+   .social i{
+     margin-top: 5px;
+    }
+    
+    .social a {
+      color: #FFF;
+    }
+  
+
+@media only screen and (max-width: 580px){
+   .social{
+     margin: 10px;
+   }
+}
+
+
+
