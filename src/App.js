@@ -8,7 +8,6 @@ import Layout from './Containers/Layout/Layout'
 import Home from './Containers/Home'
 import Informations from './Containers/Informations/Informations'
 import Equipe from './Containers/Equipe/Equipe'
-import Shop from './Containers/Shop/Shop'
 import Contact from './Containers/Contact/Contact'
 import NotFound from './Containers/NotFound/NotFound'
 import Adhesion from './Containers/Adhesion/Adhesion'
@@ -23,7 +22,6 @@ function App() {
         <Route exact path='/adhesion' component={Adhesion}></Route>
         <Route exact path='/informations' component={Informations}></Route>
         <Route exact path='/equipe' component={Equipe}></Route>
-        <Route exact path='/shop' component={Shop}></Route>
         <Route exact path='/contact' component={Contact}></Route>
         <Route  component={NotFound}></Route>
         </Switch>
@@ -33,3 +31,5 @@ function App() {
 }
 
 export default App;
+
+//<Route exact path='/shop' component={Shop}></Route>

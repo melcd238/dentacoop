@@ -8,21 +8,16 @@ import classes from './Home.module.css'
 function Home () { 
     return(
         < div className={classes.Home}>
-           <h1 className={classes.titreHome}>DentaCoop <br/> Par et pour les dentistes </h1>
+           <h1 className={classes.titreHome}>DentaCoop devient SP²D <br/> Par et pour les dentistes </h1>
            <p className={classes.paraTitreHome}>Inspirée du modèle des coopératives, Dentacoop entend révolutionner le monde dentaire en
                 proposant
             enfin des fournitures à un coût juste et en toute transparence.<br/>
             Créée par les dentistes, pour les dentistes, Dentacoop, l’avenir, maintenant.
             </p>
 
-            <div className={classes.actuadhesion}>
-                <h2 className= {classes.titreActuHome}> Campagne d'adhésion ouverte jusqu'au 11/07/2021</h2>
-                   <p>
-                       La campagne d'adhésion de SP2D, la coopérative de Dentacoop, vient de démarrer!! <br/>
-                       Pour adhérer, rendez-vous dans la rubrique Adhésion. Vous y trouverez toutes les informations utiles.
-                   </p>
-
-               </div>
+            <div className={classes.shopbtnContainer}>
+               <button className={classes.shopbtn}>Boutique en ligne</button>
+             </div>
 
            <div className={classes.homeContainer}>
 

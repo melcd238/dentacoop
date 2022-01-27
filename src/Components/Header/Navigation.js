@@ -13,7 +13,6 @@ function Navigation (){
           <NavigationItem to="/informations"> Informations </NavigationItem>
           <NavigationItem to="/equipe"> Equipe </NavigationItem>
           <NavigationItem to="/contact"> Contact </NavigationItem>
-          <NavigationItem to="/shop"> Shop </NavigationItem>
         </ul>
     )
 }
