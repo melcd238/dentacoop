@@ -16,7 +16,7 @@ function Home () {
             </p>
 
             <div className={classes.shopbtnContainer}>
-               <button className={classes.shopbtn}>Boutique en ligne</button>
+               <button className={classes.shopbtn}><a href="https://sp2d.fr/" target="_blank" rel="noreferrer">Boutique en ligne</a></button>
              </div>
 
            <div className={classes.homeContainer}>

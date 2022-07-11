@@ -51,6 +51,11 @@
     color: white;
     
 }
+.shopbtn a{
+    color:white;
+    text-decoration: none;
+}
+
 .titreActuHome{
     color: #0097c1; 
     font-size: 1.4rem;
